@@ -1,5 +1,5 @@
 # process-cpu-load
-Get Node.js process CPU load. no external dependencies.
+Get current Node.js process CPU load (no external dependencies).
 
 ## Example
 
