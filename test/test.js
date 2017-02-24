@@ -10,12 +10,12 @@ load.start(function(pcent) {
 setTimeout(function() {
 
     load.stop();
-}, 5000);
+}, 20000);
 
 
 function makeCpuLoad() {
 
-    for ( var i = 0; i < 2000000; ++i )
+    for ( var i = 0; i < 1000000; ++i )
         Math.random();
 
     setTimeout(makeCpuLoad, 0);
