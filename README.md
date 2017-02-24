@@ -1,9 +1,9 @@
 # process-cpu-load
 Get Node.js process CPU load. no external dependencies.
 
-##### Example
+## Example
 
-```
+```JavaScript
 const ProcessCpuLoad = require('process-cpu-load');
 
 var load = new ProcessCpuLoad;
@@ -32,18 +32,19 @@ makeCpuLoad();
 
 ## API
 
-`ProcessCpuLoad::start(callback, resolution = 1000)`
+##### `ProcessCpuLoad::start(callback, resolution = 1000)`
 Starts probing CPU load
 
 `callback`
 	function(pcent)
 
 `resolution`
-	prome resolution in milliseconds
+	probe resolution in milliseconds
 
 
-`ProcessCpuLoad::stop()`
+##### `ProcessCpuLoad::stop()`
 Stop probing CPU load
+
 
 ## Credits
 
