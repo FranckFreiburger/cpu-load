@@ -1,0 +1,25 @@
+{
+  "name": "process-cpu-load",
+  "version": "1.0.0",
+  "description": "get node process CPU load",
+  "main": "src/processCpuLoad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranckFreiburger/process-cpu-load.git"
+  },
+  "keywords": [
+    "node.js",
+    "process",
+    "cpu",
+    "load"
+  ],
+  "author": "Franck Freiburger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranckFreiburger/process-cpu-load/issues"
+  },
+  "homepage": "https://github.com/FranckFreiburger/process-cpu-load#readme"
+}
