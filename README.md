@@ -52,7 +52,9 @@ Stop probing CPU load
 
 
 ## Caveat
+
 Does not take into account the other processes running on the CPU.
+The value returned is the total CPU load on which the node process is running.
 
 
 ## Credits
