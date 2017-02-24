@@ -51,6 +51,10 @@ Starts probing CPU load
 Stop probing CPU load
 
 
+## Caveat
+Does not take into account the other processes running on the CPU.
+
+
 ## Credits
 
 [Franck Freiburger](https://www.franck-freiburger.com)
