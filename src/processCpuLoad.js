@@ -1,8 +1,11 @@
-function ProcessCpuLoad() {
+module.exports = function ProcessCpuLoad() {
 	
 	this._tid = 0;
 	
-	this.start = function(callback, resolution = 1000) {
+	this.start = function(callback, resolution) {
+		
+		if ( resolution === undefined )
+			resolution = 1000;
 
 		var hrTime = process.hrtime();
 		var cpu = process.cpuUsage();
