@@ -11,7 +11,7 @@ var load = new ProcessCpuLoad;
 load.start(function(pcent) {
 
 	console.log('process CPU load:', pcent+'%');
-};
+});
 
 setTimeout(function() {
 
