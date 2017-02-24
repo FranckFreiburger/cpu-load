@@ -30,6 +30,11 @@ function makeCpuLoad() {
 makeCpuLoad();
 ```
 
+## Install
+
+`npm install --save FranckFreiburger/process-cpu-load`
+
+
 ## API
 
 ##### `ProcessCpuLoad::start(callback, resolution = 1000)`
