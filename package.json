@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FranckFreiburger/process-cpu-load.git"
+    "url": "git@github.com:FranckFreiburger/process-cpu-load.git"
   },
   "keywords": [
     "node.js",
