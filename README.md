@@ -1,10 +1,10 @@
-# process-cpu-load
+# cpu-load
 Get current Node.js process CPU load (no external dependencies).
 
 ## Example
 
 ```JavaScript
-const ProcessCpuLoad = require('process-cpu-load');
+const ProcessCpuLoad = require('cpu-load');
 
 var load = new ProcessCpuLoad;
 
@@ -32,7 +32,7 @@ makeCpuLoad();
 
 ## Install
 
-`npm install --save FranckFreiburger/process-cpu-load`
+`npm install --save cpu-load`
 
 
 ## API
