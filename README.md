@@ -1,5 +1,5 @@
 # cpu-load
-Get current Node.js process CPU load (no external dependencies).
+Get current Node.js process CPU load and overload (no external dependencies).
 
 ## Example
 
@@ -38,23 +38,25 @@ makeCpuLoad();
 ## API
 
 ##### `ProcessCpuLoad::start(callback, resolution = 1000)`
-Starts probing CPU load
+Starts probing CPU load.
 
-`callback`
-	function(pcent)
+###### `callback`: function(percentage)
+Called by the library at each `resolution` interval and give the percentage of CPU usage.  
+If the percentage is > 100, the value is the overload percentage.
+	
 
-`resolution`
-	probe resolution in milliseconds
+###### `resolution`: integer
+Probe resolution in milliseconds.
 
 
 ##### `ProcessCpuLoad::stop()`
-Stop probing CPU load
+Stop probing CPU load.
 
 
 ## Caveat
 
-Does not take into account the other processes running on the CPU.
-The value returned is the total CPU load on which the node process is running.
+The library does not take into account the other processes running on the same CPU than the node process.  
+The value returned is the total CPU load on which the node process is running.  
 
 
 ## Credits
